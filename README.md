@@ -12,7 +12,7 @@ The design is based on Amazon.
 
 ## Live Demo
 
-[https://clone-b5e54.web.app/](https://rahulsanodia.github.io/Amazon-clone/)
+https://rahulsanodia.github.io/Amazon-clone/
 
 ## Captures
 

@@ -1,0 +1,47 @@
+.productList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px 20px ;
+    position: relative;
+    padding: 1rem;
+    background: linear-gradient(0deg, #ccc 95%, transparent);
+    
+  
+    &::after{
+      display: block;
+      content: "";
+      clear: both;
+    }
+    .card{
+      background-color: whitesmoke;
+      padding: 20px;
+    }
+  
+    .imageHolder{
+      text-align: center;
+      position: relative;
+      >img{
+        
+        align-items: center;
+        width: auto;
+        // text-align: center;
+        height: 250px;
+        width: 230px;
+        object-fit: contain;
+      }
+    }
+      button{
+        
+        padding: 5px;
+        background-color: #ff9f00;
+        border-radius: 4px;
+        border: 1px solid;
+        margin-top: 15px;
+        padding:  5px 20px;
+        cursor: pointer;
+      }
+    .card__btn{
+    float: center;
+    }
+  }  

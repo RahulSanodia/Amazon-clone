@@ -1,6 +1,6 @@
 # Amazon Clone (e-commerce)
 
-Amazon Clone is a project where you can create a product, add the products to the cart, do a payment, and watch your order history.<br>
+Amazon Clone is a project where you can create a product, add the products to the cart, go to your cart , and watch your totel order amount.<br>
 The design is based on Amazon.
 
 **Important**
@@ -8,27 +8,24 @@ The design is based on Amazon.
 - You have to have an account to see some of the content.
 - You can create an account with a fake e-mail.
 - Or you can access with the email: `test123@email.com` and password: `123456`.
-- If you are going to use the given email, don't delete the products.
+
 
 ## Live Demo
 
-https://clone-b5e54.web.app/
+[https://clone-b5e54.web.app/](https://rahulsanodia.github.io/Amazon-clone/)
 
 ## Captures
 
-![](https://i.imgur.com/EtrROc2.png)
-![](https://i.imgur.com/DVBnDH7.png)
-![](https://i.imgur.com/0rOQ3wL.png)
-
+![Amazon - Brave 11-12-2022 17_24_45](https://user-images.githubusercontent.com/96971132/206902737-a4a44d4d-6e3a-42c9-ae7f-8206119b803f.png)
 ## Download and Instalation
 
 You can clone the project using the following command in your terminal:
 
 ```
-git clone git@github.com:NaguiHW/amazon-clone.git
+git clone git@github.com:RahulSanodia/Amazon-clone.git
 ```
 
-Now, cd amazon-clone/ and before to start, you need to install the dependencies:
+Now, cd Amazon-clone/ and before to start, you need to install the dependencies:
 
 ```
 npm install
@@ -58,15 +55,15 @@ You will also see any lint errors in the console.
 
 ## Future Features
 
-- Add functional rating products.
+- Add functional to add to cart products.
 - Email Authentication.
-- Fix Stripe Bug (Right now it doesn't work).
+- see cart item and you can remove cart item .
 - Product details page.
-- Dark mode.
+
 
 ## Built with
 
 - ReactJS
-- ExpressJS
+- Html,scss,js
 - Firebase
 
